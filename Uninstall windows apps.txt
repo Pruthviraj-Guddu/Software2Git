@@ -1,0 +1,232 @@
+Get-AppxPackage *3dbuilder* | Remove-AppxPackage
+Get-AppxPackage *windowsalarms* | Remove-AppxPackage
+Get-AppxPackage *windowscalculator* | Remove-AppxPackage
+Get-AppxPackage *windowscommunicationsapps* | Remove-AppxPackage
+Get-AppxPackage *windowscamera* | Remove-AppxPackage
+Get-AppxPackage *officehub* | Remove-AppxPackage
+Get-AppxPackage *skypeapp* | Remove-AppxPackage
+Get-AppxPackage *getstarted* | Remove-AppxPackage
+Get-AppxPackage *bingfinance* | Remove-AppxPackage
+Get-AppxPackage *bingnews* | Remove-AppxPackage
+Get-AppxPackage *onenote* | Remove-AppxPackage
+Get-AppxPackage *people* | Remove-AppxPackage
+Get-AppxPackage *windowsphone* | Remove-AppxPackage
+Get-AppxPackage *photos* | Remove-AppxPackage
+Get-AppxPackage *bingsports* | Remove-AppxPackage
+Get-AppxPackage *soundrecorder* | Remove-AppxPackage
+Get-AppxPackage *bingweather* | Remove-AppxPackage
+Get-AppxPackage *xboxapp* | Remove-AppxPackage
+get-appxpackage *xbox* | remove-appxpackage 
+Get-AppxPackage Microsoft.Windows.Photos | Remove-AppxPackage
+Get-AppxPackage MMicrosoft.MicrosoftSolitaireCollection | Remove-AppxPackage
+Get-AppxPackage Microsoft.WindowsFeedbackHub | Remove-AppxPackage
+Get-AppxPackage Microsoft.WindowsMaps | Remove-AppxPackage
+Get-AppxPackage Microsoft.YourPhone | Remove-AppxPackage
+Get-AppxPackage Microsoft.ZuneMusic | Remove-AppxPackage
+Get-AppxPackage Microsoft.ZuneVideo | Remove-AppxPackage
+Get-AppxPackage -allusers Microsoft.549981C3F5F10 | Remove-AppxPackage
+Get-AppxPackage *Microsoft.GetHelp* -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.MixedReality.Portal | Remove-AppxPackage
+Get-AppxPackage * People * | Remove-AppxPackage
+Get-AppxPackage *Maps* | Remove-AppxPackage
+Get-AppxPackage Microsoft.MSPaint | Remove-AppxPackage
+get-appxpackage *feedback* | remove-appxpackage
+Get-AppxPackage Microsoft.Getstarted | Remove-AppxPackage
+Get-AppxPackage Microsoft.soundrecorder | Remove-AppxPackage
+get-appxpackage *microsoft.windowscommunicationsapps* | remove-appxpackage
+Get-AppxPackage *solitairecollection* | Remove-AppxPackage
+Get-AppxPackage Microsoft.Microsoft3DViewer | Remove-AppxPackage
+Get-AppxPackage Microsoft.YourPhone -AllUsers | Remove-AppxPackage
+Get-AppxPackage *MicrosoftStickyNotes* | Remove-AppxPackage
+Get-AppxPackage *ScreenSketch* | Remove-AppxPackage
+Get-AppxPackage *acg* | Remove-AppxPackage
+Get-AppxPackage *alarms* | Remove-AppxPackage
+Get-AppxPackage *calculator* | Remove-AppxPackage
+Get-AppxPackage *communications* | Remove-AppxPackage
+Get-AppxPackage *Microsoft.549981C3F5F10* | Remove-AppxPackage
+Get-AppxPackage *disney* | Remove-AppxPackage
+Get-AppxPackage *WindowsFeedbackHub* | Remove-AppxPackage
+Get-AppxPackage *fitbitcoach* | Remove-AppxPackage
+Get-AppxPackage *officehub* | Remove-AppxPackage
+Get-AppxPackage *getstarted* | Remove-AppxPackage
+Get-AppxPackage *zunemusic* | Remove-AppxPackage
+Get-AppxPackage *GetHelp* | Remove-AppxPackage
+Get-AppxPackage *maps* | Remove-AppxPackage
+Get-AppxPackage *MicrosoftEdge* | Remove-AppxPackage
+Get-AppxPackage *solitairecollection* | Remove-AppxPackage
+Get-AppxPackage *Todos* | Remove-AppxPackage
+Get-AppxPackage *Teams* | Remove-AppxPackage
+Get-AppxPackage *bingfinance* | Remove-AppxPackage
+Get-AppxPackage *zunevideo* | Remove-AppxPackage
+Get-AppxPackage *bingnews* | Remove-AppxPackage
+Get-AppxPackage *onenote* | Remove-AppxPackage
+Get-AppxPackage *OneDriveSync* | Remove-AppxPackage
+Get-AppxPackage *Paint* | Remove-AppxPackage
+Get-AppxPackage *people* | Remove-AppxPackage
+Get-AppxPackage *windowsphone* | Remove-AppxPackage
+Get-AppxPackage *phototastic* | Remove-AppxPackage
+Get-AppxPackage *photos* | Remove-AppxPackage
+Get-AppxPackage *picsart* | Remove-AppxPackage
+Get-AppxPackage *plex* | Remove-AppxPackage
+Get-AppxPackage *PowerAutomateDesktop* | Remove-AppxPackage
+Get-AppxPackage *ScreenSketch* | Remove-AppxPackage
+Get-AppxPackage *skypeapp* | Remove-AppxPackage
+Get-AppxPackage *MicrosoftStickyNotes* | Remove-AppxPackage
+Get-AppxPackage *SpotifyMusic* | Remove-AppxPackage
+Get-AppxPackage *bingsports* | Remove-AppxPackage
+Get-AppxPackage *soundrecorder* | Remove-AppxPackage
+Get-AppxPackage *bingweather* | Remove-AppxPackage
+Get-AppxPackage *WebpImageExtension* | Remove-AppxPackage
+Get-AppxPackage *MicrosoftStickyNotes* | Remove-AppxPackage
+Get-AppxPackage *SpotifyMusic* | Remove-AppxPackage
+Get-AppxPackage *bingsports* | Remove-AppxPackage
+Get-AppxPackage *soundrecorder* | Remove-AppxPackage
+Get-AppxPackage *bingweather* | Remove-AppxPackage
+Get-AppxPackage *WebpImageExtension* | Remove-AppxPackage
+Get-AppxPackage *xbox* | Remove-AppxPackage
+Get-AppxPackage *YourPhone* | Remove-AppxPackage
+
+
+
+Get-AppxPackage *WindowsStore* | Remove-AppxPackage
+
+
+
+
+
+from all user
+Get-appxpackage -allusers *Microsoft.3dbuilder* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft3DViewer* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.WindowsAlarms* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft3DViewer* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *AdobeSystemsIncorporated.AdobePhotoshopExpress* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.WindowsAlarms* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.Asphalt8Airborne* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.WindowsCalculator* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.WindowsCamera* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *king.com.CandyCrushSodaSaga* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.549981C3F5F10* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Facebook* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.WindowsFeedbackHub* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.XboxGamingOverlay* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.GetHelp* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.Getstarted* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.ZuneMusic* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *microsoft.windowscommunicationsapps* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.WindowsMaps* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.Messaging* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.BingNews* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.MicrosoftSolitaireCollection* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.MixedReality.Portal* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.OneConnect* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Netflix* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.MicrosoftOfficeHub* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *onenote* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.MSPaint* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.People* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.Windows.Photos* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.Print3D* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *AutodeskSketchBook* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.SkypeApp* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *bingsports* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Office.Sway* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.MicrosoftStickyNotes* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.Getstarted* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Twitter* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.BingWeather* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.XboxApp* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.XboxGamingOverlay* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.XboxIdentityProvider* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.XboxSpeechToTextOverlay* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.XboxGamingOverlay* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *XboxOneSmartGlass* | Remove-AppxPackage -allusers
+Get-appxpackage -allusers *Microsoft.YourPhone* | Remove-AppxPackage -allusers
+
+
+
+
+
+
+to install windows store
+Get-AppXPackage -AllUsers -Name Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml" -Verbose}
+
+
+
+
+uninstall edge
+cd %PROGRAMFILES(X86)%\Microsoft\Edge\Application\xxx\Installer 
+setup --uninstall --force-uninstall --system-level
+
+
+regedit
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft
+EdgeUpdate
+then “DWORD (32-bit) Value
+DoNotUpdateToEdgeWithChromium
+1
+
+
+Uninstall Cortana 
+
+Write-Host "Disabling Cortana"
+    $Cortana1 = "HKCU:\SOFTWARE\Microsoft\Personalization\Settings"
+    $Cortana2 = "HKCU:\SOFTWARE\Microsoft\InputPersonalization"
+    $Cortana3 = "HKCU:\SOFTWARE\Microsoft\InputPersonalization\TrainedDataStore"
+	If (!(Test-Path $Cortana1)) {
+		New-Item $Cortana1
+	}
+	Set-ItemProperty $Cortana1 AcceptedPrivacyPolicy -Value 0 
+	If (!(Test-Path $Cortana2)) {
+		New-Item $Cortana2
+	}
+	Set-ItemProperty $Cortana2 RestrictImplicitTextCollection -Value 1 
+	Set-ItemProperty $Cortana2 RestrictImplicitInkCollection -Value 1 
+	If (!(Test-Path $Cortana3)) {
+		New-Item $Cortana3
+	}
+	Set-ItemProperty $Cortana3 HarvestContacts -Value 0
+
+
+
+
+
+uninstall onedrive
+
+Write-Output "Uninstalling OneDrive. Please wait."
+    
+    New-PSDrive  HKCR -PSProvider Registry -Root HKEY_CLASSES_ROOT
+    $onedrive = "$env:SYSTEMROOT\SysWOW64\OneDriveSetup.exe"
+    $ExplorerReg1 = "HKCR:\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}"
+    $ExplorerReg2 = "HKCR:\Wow6432Node\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}"
+	Stop-Process -Name "OneDrive*"
+	Start-Sleep 2
+	If (!(Test-Path $onedrive)) {
+		$onedrive = "$env:SYSTEMROOT\System32\OneDriveSetup.exe"
+	}
+	Start-Process $onedrive "/uninstall" -NoNewWindow -Wait
+	Start-Sleep 2
+    Write-Output "Stopping explorer"
+    Start-Sleep 1
+	.\taskkill.exe /F /IM explorer.exe
+	Start-Sleep 3
+    Write-Output "Removing leftover files"
+	Remove-Item "$env:USERPROFILE\OneDrive" -Force -Recurse
+	Remove-Item "$env:LOCALAPPDATA\Microsoft\OneDrive" -Force -Recurse
+	Remove-Item "$env:PROGRAMDATA\Microsoft OneDrive" -Force -Recurse
+	If (Test-Path "$env:SYSTEMDRIVE\OneDriveTemp") {
+		Remove-Item "$env:SYSTEMDRIVE\OneDriveTemp" -Force -Recurse
+	}
+    Write-Output "Removing OneDrive from windows explorer"
+    If (!(Test-Path $ExplorerReg1)) {
+        New-Item $ExplorerReg1
+    }
+    Set-ItemProperty $ExplorerReg1 System.IsPinnedToNameSpaceTree -Value 0 
+    If (!(Test-Path $ExplorerReg2)) {
+        New-Item $ExplorerReg2
+    }
+    Set-ItemProperty $ExplorerReg2 System.IsPinnedToNameSpaceTree -Value 0
+    Write-Output "Restarting Explorer that was shut down before."
+    Start explorer.exe -NoNewWindow
+
+
+
