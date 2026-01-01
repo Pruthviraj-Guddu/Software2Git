@@ -85,6 +85,17 @@ Get-AppxPackage *bingweather* | Remove-AppxPackage
 Get-AppxPackage *WebpImageExtension* | Remove-AppxPackage
 Get-AppxPackage *xbox* | Remove-AppxPackage
 Get-AppxPackage *YourPhone* | Remove-AppxPackage
+Get-AppxPackage *GamingApp* | Remove-AppxPackage
+Get-AppxPackage *StorePurchaseApp* | Remove-AppxPackage
+Get-AppxPackage *CrossDevice* | Remove-AppxPackage
+Get-AppxPackage *XboxGameCallableUI* | Remove-AppxPackage
+Get-AppxPackage *MicrosoftEdgeDevToolsClient* | Remove-AppxPackage
+Get-AppxPackage *CloudExperienceHost* | Remove-AppxPackage
+Get-AppxPackage *PeopleExperienceHost* | Remove-AppxPackage
+Get-AppxPackage *BingSearch* | Remove-AppxPackage
+Get-AppxPackage *.Weather* | Remove-AppxPackage
+Get-AppxPackage *Sports* | Remove-AppxPackage
+
 
 
 
