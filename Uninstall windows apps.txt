@@ -96,6 +96,61 @@ Get-AppxPackage *BingSearch* | Remove-AppxPackage
 Get-AppxPackage *.Weather* | Remove-AppxPackage
 Get-AppxPackage *Sports* | Remove-AppxPackage
 
+Get-AppxProvisionedPackage -Online | Where-Object DisplayName -like "*Copilot*" | Remove-AppxProvisionedPackage -Online
+
+Get-AppxProvisionedPackage -Online | Where-Object DisplayName -like "*ZuneMusic*" | Remove-AppxProvisionedPackage -Online
+
+Get-AppxProvisionedPackage -Online | Where-Object DisplayName -like "*Bing*" | Remove-AppxProvisionedPackage -Online
+
+Get-AppxPackage *3dbuilder* | Remove-AppxPackage
+Get-AppxPackage *windowsalarms* | Remove-AppxPackage
+Get-AppxPackage *windowscalculator* | Remove-AppxPackage
+Get-AppxPackage *windowscommunicationsapps* | Remove-AppxPackage
+Get-AppxPackage *windowscamera* | Remove-AppxPackage
+Get-AppxPackage *Clipchamp* | Remove-AppxPackage
+Get-AppxPackage *Microsoft.Copilot* | Remove-AppxPackage
+Get-AppxPackage *Copilot* | Remove-AppxPackage
+Get-AppxPackage *Windows.DevHome* | Remove-AppxPackage
+Get-AppxPackage *WindowsFeedbackHub* | Remove-AppxPackage
+Get-AppxPackage *GetHelp* | Remove-AppxPackage
+Get-AppxPackage *MicrosoftOfficeHub* | Remove-AppxPackage
+Get-AppxPackage *WindowsMaps* | Remove-AppxPackage
+Get-AppxPackage *Microsoft.ZuneMusic* | Remove-AppxPackage
+Get-AppxPackage *MediaPlayer* | Remove-AppxPackage
+Get-AppxPackage *Microsoft.ZuneVideo* | Remove-AppxPackage
+Get-AppxPackage *BingNews* | Remove-AppxPackage
+Get-AppxPackage *Microsoft.BingSearch* | Remove-AppxPackage
+Get-AppxPackage *BingWeather* | Remove-AppxPackage
+Get-AppxPackage *People* | Remove-AppxPackage
+Get-AppxPackage *MicrosoftStickyNotes* | Remove-AppxPackage
+Get-AppxPackage *MSTeams* | Remove-AppxPackage
+Get-AppxPackage *Teams* | Remove-AppxPackage
+Get-AppxPackage *HolographicFirstRun* | Remove-AppxPackage
+Get-AppxPackage *OneNote* | Remove-AppxPackage
+Get-AppxPackage *YourPhone* | Remove-AppxPackage
+Get-AppxPackage *PowerAutomateDesktop* | Remove-AppxPackage
+Get-AppxPackage *QuickAssist* | Remove-AppxPackage
+Get-AppxPackage *ScreenSketch* | Remove-AppxPackage
+Get-AppxPackage *WindowsSoundRecorder* | Remove-AppxPackage
+Get-AppxPackage *Getstarted* | Remove-AppxPackage
+Get-AppxPackage *WindowsWebExperiencePack* | Remove-AppxPackage
+Get-AppxPackage *Xbox* | Remove-AppxPackage
+Get-AppxPackage *GamingApp* | Remove-AppxPackage
+Get-AppxPackage *XboxGamingOverlay* | Remove-AppxPackage
+Get-AppxPackage *XboxGameOverlay* | Remove-AppxPackage
+Get-AppxPackage *XboxIdentityProvider* | Remove-AppxPackage
+Get-AppxPackage *XboxSpeechToTextOverlay* | Remove-AppxPackage
+Get-AppxPackage *Xbox.TCUI* | Remove-AppxPackage
+Get-AppxPackage *XboxApp* | Remove-AppxPackage
+Get-AppxPackage *XboxLive* | Remove-AppxPackage
+Get-AppxPackage *Solitaire* | Remove-AppxPackage
+Get-AppxPackage *Outlook* | Remove-AppxPackage
+Get-AppxPackage *Microsoft.OutlookForWindows* | Remove-AppxPackage
+
+
+
+
+
 
 
 
